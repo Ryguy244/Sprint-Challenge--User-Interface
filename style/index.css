@@ -199,7 +199,7 @@ footer nav a {
     }
     .jumbo {
         height: 10rem;
-        width: 25rem;
+        width: 20rem;
         align-items: center;
         border: 20rem;
     }
@@ -231,10 +231,9 @@ footer nav a {
         font-size: .9rem;
     }
     #boxTitle {
-        display: flex;
-        flex-wrap: nowrap;
         padding-bottom: .4rem;
         width: 100%;
+        margin: 1rem;
     }
     .middle-content .boxes .box { 
         height: 10rem;
