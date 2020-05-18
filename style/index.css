@@ -38,9 +38,10 @@ body {
 header nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     font-size: 1rem;
     margin: 1%;
+    color: black;
 }
 a {
     text-decoration: none;
@@ -77,8 +78,8 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
-    margin-bottom: 15px;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -123,10 +124,10 @@ p {
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
+    width: 7rem;
+    height: 7rem;
     background: black;
-    margin: 20px 2.5%;
+    margin: 2rem 2.5%;
     color: white;
     display: flex;
     align-items: center;
@@ -145,7 +146,7 @@ p {
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 0 2% 2rem;
     justify-content: space-around;
 }
 
@@ -170,8 +171,8 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+    padding: 2rem 2%;
+    font-size: 1.4rem;
 }
 
 footer nav a {
