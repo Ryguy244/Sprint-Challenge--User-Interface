@@ -176,7 +176,7 @@ footer nav {
     justify-content: space-between;
     align-items: center;
     padding: 2rem 2%;
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
 
 footer nav a {
@@ -188,19 +188,20 @@ footer nav a {
         display: flex;
         align-items: center;
         flex-direction: column;
-        max-width: 500px;
+        max-width: 100%;
+        margin:
     }
     .stripe {
-        padding: 1rem;
+        padding: 2rem;
     }
     header nav {
         align-items: center;
     }
     .jumbo {
-        height:20%;
-        width: 70%;
-        box-sizing: border-box;
-        padding: 5%;
+        height: 10rem;
+        width: 25rem;
+        align-items: center;
+        border: 20rem;
     }
     a {
         font-size: 1.4rem;
@@ -217,11 +218,34 @@ footer nav a {
     }
     p {
         line-height: 1.1rem;
-        width: 80%;
-        padding-bottom: 1rem;
+        width: 100%;
+        padding-bottom: .25rem;
     }
-    .boxes {
-
+    .top-content {
+        width: 90%;
+    }
+    .top-content .text-container {
+        width: 60%;
+        padding: 0 1%;
+        padding-bottom: 1.4rem;
+        font-size: .9rem;
+    }
+    #boxTitle {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: .4rem;
+        width: 100%;
+    }
+    .middle-content .boxes .box { 
+        height: 10rem;
+        width: 10rem;
+        margin: .75rem;
+        padding-top: .25rem;
+        font-size: 1.5rem;
+    }
+    .middle-content {
+        border-bottom: none;
+        margin-bottom: .1rem;
     }
     .bottom-content .text-container {
         display: flex;
@@ -229,12 +253,13 @@ footer nav a {
         padding-right: 4%;
         font-size: 1rem;
         width: 65%;
+        padding-bottom: 1rem;
     }
     footer {
         display: flex;
         align-items: center;
         width: 70%;
-        height: 50%;
+        height: 6%;
         line-height: 1.4rem;
     }
     footer nav a{
