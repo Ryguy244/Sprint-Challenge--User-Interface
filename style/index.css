@@ -30,22 +30,23 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
+}
+.container {
     font-size: 62.5%;
     text-decoration: none;
     margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5%;
-    font-size: 1.4rem;
+    font-size: 1rem;
+    margin: 1%;
 }
 .jumbo {
-    padding: 5%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 3%;
 }
 ol, ul {
 	list-style: none;
@@ -127,6 +128,16 @@ p {
     align-items: center;
     justify-content: center;
 }
+#boxOne {background-color: teal;}
+#boxTwo {background-color: gold;}
+#boxThree {background-color: cadetblue;}
+#boxFour {background-color: coral;}
+#boxFive {background-color: crimson;}
+#boxSix {background-color: forestgreen;}
+#boxSeven {background-color: darkorchid;}
+#boxEight {background-color: hotpink;}
+#boxNine {background-color: indigo;}
+#boxTen {background-color: dodgerblue;}
 
 .bottom-content {
     display: flex;
@@ -136,6 +147,9 @@ p {
 
 .bottom-content .text-container {
     padding-right: 4%;
+    font-size: 1rem;
+    height: 20%;
+    width: 30%;
 }
 
 .bottom-content .text-container:last-child {
