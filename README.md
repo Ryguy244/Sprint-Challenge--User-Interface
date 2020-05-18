@@ -36,13 +36,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is all about providing meaning within the tags themselves. This is opposed to presentational HTML, which has its place, but does not have any inherant meaning. Naturally, both styles have meaning to the computer, but we are talking about meaning to the programmer.For example, a <div> tag tells us nothing about its content. A <table> tag tells us to expect a table. Semantic HTML is important, both for readability in an ever-changing field as well as for SEO optimization. I am sure there are more reasons, but hey, it's my first week.
+
 2. What are the 4 areas of the box model?
+
+Starting from the middle, we have "content", "padding", "border", and "margin". Broadly speaking, this is how HTML layouts are talked about. 
 
 3. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Align-items refers to the y-axis. However, this is a little flexible, as you can switch the direction, which would make it talk about the x-axis. Generally speaking, align-items: center; would center something vertically. 
+
 4. Explain why git is valuable to a team of developers.
 
+Git is important for organization and security. It allows work to be spread out and allocated between a team. It also helps make sure that projects are being updated properly, so team-members are not doing the same work. Basically.... organization. Git also provides a valuable tool for developers to save and use previous editions of their work, in case disaster strikes. Git is the kind of thing you don't think you need until it rescues you from the jaws of defeat. 
+
 5. Define mobile-first design in your own words.
+
+The key word here is "first". Mobile-first design means that the programmer made it with mobile sizing in mind. You start with the smallest screens in mind. It doesn't even necessarily mean that it will be exclusively mobile. Mobile becomes the media query reference point, if that is the direction the project goes in.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
