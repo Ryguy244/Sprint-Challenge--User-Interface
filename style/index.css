@@ -29,7 +29,23 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    font-size: 62.5%;
+    text-decoration: none;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    font-size: 1.4rem;
+}
+.jumbo {
+    padding: 5%;
 }
 ol, ul {
 	list-style: none;
