@@ -33,7 +33,6 @@ body {
 }
 .container {
     font-size: 62.5%;
-    text-decoration: none;
     margin: 0 auto;
 }
 header nav {
@@ -43,10 +42,13 @@ header nav {
     font-size: 1rem;
     margin: 1%;
 }
+a {
+    text-decoration: none;
+}
 .jumbo {
     display: flex;
     justify-content: flex-start;
-    padding: 3%;
+    padding: 3% 0% 3% 0%;
 }
 ol, ul {
 	list-style: none;
@@ -66,6 +68,7 @@ table {
 
 * {
     box-sizing: border-box;
+    font: black bold;
 }
 
 html, body {
@@ -92,18 +95,19 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 1.4rem;
     border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 1.4rem;
+    font-size: 1rem;  
 }
 
 .middle-content {
-    margin-bottom: 20px;
+    margin-bottom: 1.4rem;
     border-bottom: 1px dashed black;
 }
 
